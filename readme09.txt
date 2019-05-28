@@ -8,3 +8,13 @@ java -server -Xmx60G -cp /home/khast/terrier-core-4.2/etc/:/home/khast/terrier-c
 		org.terrier.applications.TrecTerrier -i -j
 
 and the local terrier.properties file.
+
+To index with Terrier 5, please git clone terrier-core:
+
+    git clone https://github.com/terrier-org/terrier-core
+
+create symbolic links to terrier.properties and collection09.spec in the etc folder, and run:
+
+    export TERRIER_HEAP_MEM=40G
+    export TERRIER_OPTIONS="-Dterrier.index.path=/data/khast/index-java/t5/cw09b -Dterrier.index.prefix=cw09b.nostem.nostop"
+    ./bin/terrier batchindexing -j -p
