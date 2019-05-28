@@ -33431,4 +33431,3 @@
 /data2/ClueWeb12-01/DiskB/ClueWeb12_19/1914wb/1914wb-26.warc.gz
 /data2/ClueWeb12-01/DiskB/ClueWeb12_19/1914wb/1914wb-27.warc.gz
 /data2/ClueWeb12-01/DiskB/ClueWeb12_19/1914wb/1914wb-28.warc.gz
-/data2/ClueWeb12-01/DiskB/ClueWeb12_B13_DocID_To_URL.txt.bz2
